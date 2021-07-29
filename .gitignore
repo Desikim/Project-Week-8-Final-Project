@@ -77,6 +77,11 @@ target/
 # Jupyter Notebook
 .ipynb_checkpoints
 
+Kick-Off.txt
+
+training_headlines.csv
+
+
 # IPython
 profile_default/
 ipython_config.py
