@@ -20,8 +20,11 @@
 
 ## Project Description
 
-The topic of this project is sarcasm, precisely how sarcasm in sentences can be detected. While researching about natural language processing and sentiment analysis, I came accross the problematic of sarcasm. In sentiment analysis, certain words are used to decide wheter a sentence has a specific sentiment or not. This works well for positive and negative sentiments. But how about a sarcastic one?  Sarcasm is hard to detect for humans, so how about a machine?
-If you wanted to detect sarcasm in a sentence, you can not apply the logic of sentiment analysis anymore.  
+The topic of this project is sarcasm, precisely how sarcasm in sentences can be detected.  
+While researching about natural language processing and sentiment analysis, I came accross the problematic of sarcasm. In sentiment analysis,  
+certain words are used to decide wheter a sentence has a specific sentiment or not. This works well for positive and negative sentiments.  
+But how about a sarcastic one?  Sarcasm is hard to detect for humans, so how about a machine? If you wanted to detect sarcasm in a sentence,  
+you can not apply the logic of sentiment analysis anymore.  
 I wanted to find out in which humanly possible way a machine could predict sarcasm in a sentence, so I went ahead and found out!
 
 ## Questions
@@ -32,11 +35,15 @@ I wanted to find out in which humanly possible way a machine could predict sarca
 
 ## Dataset
 
-The data set I used was created by Rishabh Misra, by scraping news headlines from "The Onion", a sarcastic fake-news newspaper, and the "Huff Post". The reason behind scraping news articles headlines is the formal style they are written in, as well as the absence of spelling mistakes and emojis. "New headlines for sarcasm detection" can be downloaded on [Kaggle](https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection). The data consists of a json-file, which can be divided in three columns:
+The data set I used was created by Rishabh Misra, by scraping news headlines from "The Onion", a sarcastic fake-news newspaper, and the "Huff Post".  
+The reason behind scraping news articles headlines is the formal style they are written in, as well as the absence of spelling mistakes and emojis.  
+"New headlines for sarcasm detection" can be downloaded on [Kaggle](https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection).  
+The data consists of a json-file, which can be divided in three columns:
 1. Sarcasm label (is_sarcastic)
 2. Headlines (headline)
 3. Link of the article (article_link)  
-There are two versions available for download, I used version 2. The data set contains 28619 entries, of which 14985 entries are non-sarcastic headlines and 13634 entries are sarcastic headlines. 
+There are two versions available for download, I used version 2. The data set contains 28619 entries, of which 14985 entries are non-sarcastic headlines  
+and 13634 entries are sarcastic headlines. 
 
 ## Cleaning & Pre-processing
 
