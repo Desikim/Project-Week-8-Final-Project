@@ -42,8 +42,6 @@ The data consists of a json-file, which can be divided in three columns:
 1. Sarcasm label (is_sarcastic)
 2. Headlines (headline)
 3. Link of the article (article_link)  
-Here you can see how many of the headlines are sarcastic and non-sarcastic.
-![sarcastic_headlines](https://user-images.githubusercontent.com/83407752/134223907-eff6fde8-7e5e-4624-ba87-ffcab00b31fb.png)
 
 ## Cleaning & Pre-processing💎
 
