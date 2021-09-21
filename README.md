@@ -6,16 +6,16 @@
 *Ironhack | May 2021*
 
 ## Content
-- [Project Description](#project-description)
-- [Questions](#questions)
-- [Dataset](#dataset)
-- [Cleaning](#cleaning-&-pre-processing)
-- [Analysis](#analysis)
-- [Model Training & Evaluation](#model-training-and-evaluation)
-- [Conclusion](#conclusion)
-- [Future Work](#future-work)
-- [Workflow](#workflow)
-- [Organization](#organization)
+- [Project Description📙](#project-description)
+- [Questions❔](#questions)
+- [Dataset📄](#dataset)
+- [Cleaning💎](#cleaning-&-pre-processing)
+- [Analysis📊](#analysis)
+- [Model Training & Evaluation💫](#model-training-&-evaluation)
+- [Conclusion🌟](#conclusion)
+- [Future Work🔮](#future-work)
+- [Workflow🔧](#workflow)
+- [Organization📖](#organization)
 - [Links](#links)
 
 ## Project Description📙
