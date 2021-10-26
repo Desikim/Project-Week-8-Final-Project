@@ -20,8 +20,8 @@
 
 ## Project Description📙
 
-The goal of this project was to figure out and understand how to detect sarcasm in a sentence using a machine learning model. While researching about natural language processing and sentiment analysis, I came accross the problematic of being able to detect sarcasm in sentences. In sentiment analysis, certain words are used to decide wheter a sentence has a specific sentiment or not. 
-For example, to detect a positive sentiment you could train a model with positive words like: good, great, awesome, happy, love, ... and use the frequency of positive words in a sentence to decide whether it is a positive sentence or not. This approach works for detecting negativity in sentences as well, but what about Sarcasm? As soon as you think about it, it makes sense - how can you train a model to detect sarcasm when there is no word that by itself is sarcastic? Sarcasm is hard to detect for people, so how hard is it for a model? 
+While researching the machine learning topic natural language processing and sentiment analysis, I came accross the problematic of being able to detect sarcasm in sentences. In sentiment analysis, certain words are used to decide wheter a sentence has a specific sentiment or not. 
+For example, to detect a positive sentiment you could train a model with positive words like: good, great, awesome, happy, love, ... and use the frequency of positive words in a sentence to decide whether it is a positive sentence or not. This approach works for detecting negativity in sentences as well, but what about Sarcasm? As soon as you think about it, it makes sense - how can you train a model to detect sarcasm when there is no word that by itself is sarcastic? Sarcasm is hard to detect for people, so how hard is it for a machine learning model? 
 
 ## Questions❔
 
@@ -32,13 +32,6 @@ For example, to detect a positive sentiment you could train a model with positiv
 ## Dataset📄
 
 The data set I used was created by Rishabh Misra, by scraping news headlines from "The Onion", a sarcastic fake-news newspaper, and the "Huff Post". The reason behind scraping news articles headlines is the formal style they are written in, as well as the absence of spelling mistakes and emojis. "New headlines for sarcasm detection" can be downloaded on [Kaggle](https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection). There are two versions available for download, I used version 2. The data consists of a json-file, which can be divided in three columns:
-1. Sarcasm label (is_sarcastic)
-2. Headlines (headline)
-3. Link of the article (article_link)  
-The data set I used was created by Rishabh Misra, by scraping news headlines from "The Onion", a sarcastic fake-news newspaper, and the "Huff Post".  
-The reason behind scraping news articles headlines is the formal style they are written in, as well as the absence of spelling mistakes and emojis.
-"New headlines for sarcasm detection" can be downloaded on [Kaggle](https://www.kaggle.com/rmisra/news-headlines-dataset-for-sarcasm-detection).  
-The data consists of a json-file, which can be divided in three columns:
 1. Sarcasm label (is_sarcastic)
 2. Headlines (headline)
 3. Link of the article (article_link)  
